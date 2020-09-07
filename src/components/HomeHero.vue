@@ -7,7 +7,7 @@
         <v-overlay :absolute="true" :value="true">
           <v-col class="home-hero__text">
             <p>Welcom to my website.</p>
-            <p>I'm a enginner.</p>
+            <p>I'm an enginner.</p>
           </v-col>
         </v-overlay>
       </v-img>
