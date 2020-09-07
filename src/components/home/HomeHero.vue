@@ -3,11 +3,11 @@
   <!-- <v-container fluid fill-height class="home-hero__content"> -->
   <v-container fluid fill-height>
     <v-row>
-      <v-img src="../assets/top.png">
+      <v-img src="../../assets/top.png">
         <v-overlay :absolute="true" :value="true">
           <v-col class="home-hero__text">
-            <p>Welcom to my website.</p>
-            <p>I'm an enginner.</p>
+            <h2>Welcom to my website.</h2>
+            <h2>I'm an enginner.</h2>
           </v-col>
         </v-overlay>
       </v-img>
