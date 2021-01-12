@@ -3,14 +3,15 @@
   <!-- <v-container fluid fill-height class="home-hero__content"> -->
   <v-container fluid fill-height>
     <v-row>
-      <v-img src="../../assets/top.png">
-        <v-overlay :absolute="true" :value="true">
-          <v-col class="home-hero__text">
-            <h2>Welcom to my website.</h2>
-            <h2>I'm an enginner.</h2>
-          </v-col>
-        </v-overlay>
-      </v-img>
+        <v-img src="../../assets/top.png"  aspect-ratio min-height="800" max-height="800">
+          <v-overlay :absolute="true" :value="true">
+            <v-col class="home-hero__text">
+              <h2>Welcom to my website.</h2>
+              <h2>I'm an enginner.</h2>
+              <!-- <h2>Try not. Do... or do not. There is no try.</h2> -->
+            </v-col>
+          </v-overlay>
+        </v-img>
     </v-row>
   </v-container>
   <!-- </section> -->
